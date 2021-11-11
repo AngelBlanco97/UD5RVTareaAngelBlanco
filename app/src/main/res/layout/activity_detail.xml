@@ -18,9 +18,9 @@
 
             <ImageView
                 android:id="@+id/image"
-                android:layout_width="251dp"
-                android:layout_height="136dp"
-                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:background="@drawable/layer_list"
                 android:contentDescription="TODO"></ImageView>
 
             <TextView
@@ -28,14 +28,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:textColor="@color/design_default_color_secondary_variant"
                 android:textSize="20sp"
-                android:textStyle="bold|italic" />
+                android:textStyle="bold|italic"
+                android:textAlignment="center"/>
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/layer_list"
                 android:fontFamily="monospace"
                 android:text="@string/informacion_adicional"
                 android:textStyle="bold"
@@ -52,6 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/layer_list"
                 android:fontFamily="monospace"
                 android:text="@string/licencia"
                 android:textStyle="bold"
@@ -68,6 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/layer_list"
                 android:fontFamily="monospace"
                 android:text="@string/tags"
                 android:textStyle="bold"
@@ -84,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/layer_list"
                 android:fontFamily="monospace"
                 android:text="@string/lenguajes_usados"
                 android:textStyle="bold"
