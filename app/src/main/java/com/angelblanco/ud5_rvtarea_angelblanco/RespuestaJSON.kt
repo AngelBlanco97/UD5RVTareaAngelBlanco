@@ -1,6 +1,7 @@
 package com.angelblanco.ud5_rvtarea_angelblanco
 
 
+import android.view.textclassifier.TextLanguage
 import com.google.gson.annotations.SerializedName
 
 data class RespuestaJSON(
@@ -49,5 +50,9 @@ data class RespuestaJSON(
     @SerializedName("notifications_url") val notifications_url : String,
     @SerializedName("labels_url") val labels_url : String,
     @SerializedName("releases_url") val releases_url : String,
-    @SerializedName("deployments_url") val deployments_url : String
+    @SerializedName("deployments_url") val deployments_url : String,
+    @SerializedName("language") val language: String,
+    @SerializedName("license") val license: License,
+    @SerializedName("topics") val topics: List<String>
+
 )

@@ -13,7 +13,7 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         items += Gson().fromJson(Miobjeto.informacionMezcla, collectionType) as MutableList<RespuestaJSON>
-        //repos += Gson().fromJson(RecyclerFakeData.repositoriesJson, Results::class.java).repos.toMutableList()
+
     }
 }
 

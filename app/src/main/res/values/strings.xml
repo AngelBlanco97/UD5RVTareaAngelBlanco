@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UD5-RVTarea-AngelBlanco</string>
+    <string name="licencia">Licencia:</string>
+    <string name="informacion_adicional">Informacion adicional:</string>
+    <string name="tags">Tags:</string>
+    <string name="lenguajes_usados">Lenguajes usados:</string>
 </resources>

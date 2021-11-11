@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.angelblanco.ud5_rvtarea_angelblanco.databinding.ActivityDetailBinding
+import com.google.gson.Gson
 import com.squareup.picasso.Picasso
 
 class DetailActivity : AppCompatActivity() {
@@ -13,6 +14,7 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
         val id = intent.extras?.getInt(ITEM_ID)
         if (id == null) {
@@ -30,6 +32,10 @@ class DetailActivity : AppCompatActivity() {
                 } else {
                     binding.itemName.text = item.name
                     binding.descriptionRepo.text = item.description
+                    binding.lenguajeRepo.text = item.language
+                    binding.licenceRepo.text = item.license.name
+                    binding.tagsRepo.text = item.topics.toString()
+
                 }
 
 
