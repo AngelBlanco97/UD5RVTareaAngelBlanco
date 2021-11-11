@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivRepo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRepoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del Repositorio"/>
+
+        <TextView
+            android:id="@+id/tvRepoDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Descripcion del Repositorio"/>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
